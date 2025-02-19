@@ -1,0 +1,54 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: start; /* Mantém o topo fixo e permite expansão */
+    background-color: #f0f0f0; /* Fundo para destacar a folha */
+}
+
+main {
+    background-color: white;
+    width: 60%;
+    max-width: 800px; /* Define um limite para a largura */
+    min-height: 90vh; /* Altura mínima para parecer uma folha */
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    
+    margin: 5vh auto; /* Espaçamento para centralizar melhor */
+}
+
+.box {
+    margin-bottom: 2rem;
+}
+
+.header-title {
+    text-align: center;
+    margin-bottom: 2rem;
+    text-decoration: underline;
+    font-size: 2.5rem;
+}
+
+.data {
+    padding-left: 2.5rem;
+    padding-bottom: 8px;
+    font-size: 1.2rem;
+}
+
+.header hr {
+    margin: 2rem auto;
+    width: 90%;
+    height: 1px;
+    border: none;
+    border-top: 1px solid gray;
+    background-color: #dddddd;
+}
+
+.foot {
+    text-align: center;
+    padding-left: 2.5rem;
+    padding-top: 3rem;
+    font-size: 1.2rem;
+}
+
